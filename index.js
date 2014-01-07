@@ -41,4 +41,16 @@ Route.prototype.route = function (path) {
   return routeFactory(this.router)(nestedPath);
 };
 
+Route.prototype.templates = function (task) {
+  
+};
+
+Route.prototype.before = function (fn) {
+  
+};
+
+Route.prototype.after = function (fn) {
+  
+};
+
 module.exports = tinyRouter;
